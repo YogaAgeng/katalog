@@ -11,7 +11,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
 
       <!--=============== SWIPER CSS ===============-->
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
@@ -21,38 +21,118 @@
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Contractor</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+
+                  <li>
+                     <a href="#about" class="nav__link">About</a>
+                  </li>
+
+                  <li>
+                     <a href="#services" class="nav__link">Services</a>
+                  </li>
+
+                  <li>
+                     <a href="#team" class="nav__link">Our Team</a>
+                  </li>
+
+               </ul>
+              
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-apps-2-line"></i>
+            </div>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">BUILDING <br> MADE <br> EASY</h1>
+                  
+                  <p class="home__description">
+                     Dive into a realm of innovation where groundbreaking
+                     equipment meets your toughest challenges head-on.
+                  </p>
+                  
+                  <div class="home__buttons">
+                     <a href="#" class="button">Build Now</a>
+                  </div>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__circle">
+                     <div class="home__subcircles"></div>
+                  </div>
+
+                  <img src="assets/img/bg-removebg.png" alt="image" class="home__img">
+               </div>
+            </div>
          </section>
 
-         <!--==================== FAVORITES ====================-->
-         <section class="favorite section" id="favorites">
-            
+         <!--==================== About ====================-->
+         <section class="about section" id="about">
+            <div class="about__container container grid">
+               <div class="about__data">
+                  <h2 class="section__title">ABOUT OUR <br> MACHINE HIRE</h2>
+
+                  <p class="about__description">
+                     Experience seamless solutions with our rental services. 
+                     From heavy machinery to specialized equipment, we provide 
+                     tailored options to suit every project. Let us be your partner in success,
+                     delivering top-quality rentals and exceptional service every step of the way.
+                  </p>
+
+
+               </div>
+
+               <div class="swiper">
+                  <div class="swiper-wrapper">
+                     <article class="about__article swiper-slide">
+                        <img src="assets/img/utama.png" alt="image" class="about__img">
+                     </article>
+
+                     <article class="about__article swiper-slide">
+                        <img src="assets/img/bgngeruk.png" alt="image" class="about__img">
+                     </article>
+
+                     <article class="about__article swiper-slide">
+                        <img src="assets/img/bgsun.png" alt="image" class="about__img">
+                     </article>
+
+                  </div>
+               </div>
+            </div>
          </section>
 
-         <!--==================== CARE ====================-->
-         <section class="care section" id="care">
-            
-         </section>
+         <!--==================== Service ====================-->
+         <section class="services section" id="services">
+            <h2 class="section__title">OUR <br>SERVICES </h2>
 
-         <!--==================== BANNER ====================-->
-         <section class="banner">
-            
-         </section>
-
-         <!--==================== PRODUCTS ====================-->
-         <section class="products section" id="products">
-            
+            <div class="services__container container grid">
+               <div class="services__content grid">
+                  <article class="services__card">
+                     <img src="assets/img/utama.png" alt="image" class="services__img">
+                  </article>
+               </div>
+            </div>
          </section>
 
          <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
+         <section class="team section" id="team">
             
          </section>
       </main>
@@ -69,7 +149,7 @@
       <script src=""></script>
 
       <!--=============== SWIPER JS ===============-->
-      <script src=""></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
       <!--=============== MAIN JS ===============-->
       <script src="assets/js/main.js"></script>
